@@ -15,7 +15,7 @@ export class AppComponent {
   title = 'angular-project';
   users =  DUMMY_USERS;
   selectedUserId?: string
-
+ 
   get selectedUser() {
     return this.users.find(user => user.id === this.selectedUserId)!;
   }
