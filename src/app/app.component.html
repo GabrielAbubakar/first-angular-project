@@ -14,7 +14,7 @@
 
 
     @if (selectedUser) {
-        <app-tasks [name]="selectedUser.name">
+        <app-tasks [userId]="selectedUser.id" [name]="selectedUser.name" >
     
         </app-tasks>
     } @else {
